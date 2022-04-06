@@ -10,8 +10,8 @@ object Wed extends App {
     .master("local[*]")
     .getOrCreate()
 
-  val dataFrame = spark.read.option("header", true).option("inferSchema", true).csv("data.csv")
-  val newFrame = dataFrame.columns.foldLeft(dataFrame)((frame, name) => frame.withColumn(name, upper(col(name))))
-  newFrame.show()
+  val data = spark.read.option("header", true).option("inferSchema", true).csv("data.csv")
+  val dataUpper = data.columns.foldLeft(data)((frame, name) => frame.withColumn(name, upper(col(name))))
+  dataUpper.show()
 
 }

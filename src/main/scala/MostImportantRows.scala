@@ -16,7 +16,11 @@ object MostImportantRows extends App {
     (1, "MV1"),
     (1, "MV2"),
     (2, "VPV"),
-    (2, "Others")).toDF("id", "value")
+    (2, "Others"),
+    (3, "MV1"),
+    (3, "MV2"),
+    (3, "VPV"),
+    (3, "Others")).toDF("id", "value")
 
   val solution = input
     .join(priorities, "value")

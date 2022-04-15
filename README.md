@@ -19,3 +19,4 @@
 * The AddDays object contains the solution of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/sql/How-to-add-days-as-values-of-a-column-to-date.html>
 * The LimitCollect object contains the solution of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/sql/limiting-collect_set-standard-function.html>
 * The UpperColumn object contains the solution of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/spark-sql-exercise-Using-upper-Standard-Function.html>
+* The FindMostCommonPrefix and FindMostCommonPrefix2 objects contain two different solutions of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/spark-sql-exercise-Finding-Most-Common-Non-null-Prefix-Occurences-per-Group.html>

@@ -1,10 +1,10 @@
-object Thu extends App {
+object SplitWithVariableDelimiter extends App {
 
   import org.apache.spark.sql.SparkSession
 
   val spark = SparkSession
     .builder()
-    .appName("Thu")
+    .appName("SplitWithVariableDelimiter")
     .master("local[*]")
     .getOrCreate()
 

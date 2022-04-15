@@ -13,7 +13,7 @@ object UpperColumn extends App {
     .appName("FlatMapNumbers")
     .master("local[*]")
     .getOrCreate()
-  
+
   import org.apache.spark.sql.functions._
 
   val data = spark.read.option("header", true).option("inferSchema", true).csv(path)

@@ -1,3 +1,4 @@
+//The SplitWithVariableDelimiter object contains the solution of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/sql/split-function-with-variable-delimiter-per-row.html>
 object SplitWithVariableDelimiter extends App {
 
   import org.apache.spark.sql.SparkSession

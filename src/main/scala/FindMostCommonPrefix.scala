@@ -1,3 +1,5 @@
+//The FindMostCommonPrefix and FindMostCommonPrefix2 objects contain two different solutions of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/spark-sql-exercise-Finding-Most-Common-Non-null-Prefix-Occurences-per-Group.html>
+
 object FindMostCommonPrefix extends App {
   import org.apache.spark.sql.SparkSession
   val spark = SparkSession

@@ -1,3 +1,5 @@
+//The AddDays object contains the solution of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/sql/How-to-add-days-as-values-of-a-column-to-date.html>
+
 object AddDays extends App {
   import org.apache.spark.sql.SparkSession
   val spark = SparkSession

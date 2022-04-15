@@ -1,3 +1,5 @@
+//The LimitCollect object contains the solution of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/sql/limiting-collect_set-standard-function.html>
+
 object LimitCollect extends App {
   import org.apache.spark.sql.SparkSession
   val spark = SparkSession

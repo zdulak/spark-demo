@@ -1,3 +1,5 @@
+//The DaysDiff object contains the solution of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/spark-sql-exercise-Difference-in-Days-Between-Dates-As-Strings.html>
+
 object DaysDiff extends App {
   import org.apache.spark.sql.SparkSession
   val spark = SparkSession

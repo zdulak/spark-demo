@@ -1,3 +1,5 @@
+//The UpperColumn object contains the solution of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/spark-sql-exercise-Using-upper-Standard-Function.html>
+
 object UpperColumn extends App {
   if (args.length < 2) {
     import scala.sys.exit

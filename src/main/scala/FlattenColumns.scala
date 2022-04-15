@@ -1,5 +1,6 @@
 import org.apache.spark.sql.connector.catalog.TableChange.ColumnPosition.first
 
+//The FlattenColumns object contains the solution of the exercise: <https://jaceklaskowski.github.io/spark-workshop/exercises/spark-sql-exercise-Flattening-Array-Columns-From-Datasets-of-Arrays-to-Datasets-of-Array-Elements.html>
 
 object FlattenColumns extends App {
   import org.apache.spark.sql.SparkSession

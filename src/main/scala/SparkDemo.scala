@@ -1,3 +1,4 @@
+//The class SparkDemo contains our first Spark application which loads file to a DataFrame
 object SparkDemo extends App {
   import org.apache.spark.sql.SparkSession
 

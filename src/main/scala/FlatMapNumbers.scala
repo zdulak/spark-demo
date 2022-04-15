@@ -1,3 +1,7 @@
+//The FlatMapNumbers object contains the solution of the exercises:
+//  - <https://jaceklaskowski.github.io/spark-workshop/exercises/spark-sql-exercise-Using-Dataset-flatMap-Operator.html>
+//  - <https://jaceklaskowski.github.io/spark-workshop/exercises/spark-sql-exercise-Using-explode-Standard-Function.html>
+
 object FlatMapNumbers extends App {
 
   import org.apache.spark.sql.SparkSession
